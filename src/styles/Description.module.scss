@@ -1,0 +1,25 @@
+@import './Global.scss';
+
+.container {
+    background: #EFEFEF;
+    padding: 38px 24px;
+    text-align: center;
+    margin-top: 30px;
+
+    @include tablet {
+        padding: 24px ;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .description {
+        max-width: 972px;
+        margin: auto;
+    }
+
+    
+}
+
+// Responsive

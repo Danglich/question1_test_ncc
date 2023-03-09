@@ -1,0 +1,58 @@
+@import './Global.scss';
+
+.container {
+    background: #191718;
+    width: 150px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    
+    @include mobile {
+        display: none;
+    }
+
+    &.show_menu {
+        @include mobile {
+            display: block;
+        }
+    }
+
+    .close_icon {
+        position: absolute;
+        right: -38px;
+        color: black;
+        top: 4px;
+        font-size: 36px;
+        display: none;
+
+        @include mobile {
+            display: block;
+        }
+    }
+
+    
+
+
+    .list_item {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.menu-icon {
+    font-size: 36px;
+    margin-left: 16px;
+    margin-top: 12px;
+    display: none;
+    position: fixed;
+    top: 12px;
+    left: 16px;
+
+    @include mobile {
+        display: block;
+    }
+}
+

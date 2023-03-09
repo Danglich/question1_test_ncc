@@ -1,0 +1,24 @@
+.container {
+
+    .title {
+        font-size: 24px;
+
+    }
+
+    .content {
+
+        .image {
+            height: 128px;
+            width: 128px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            float: left;
+            margin-right: 16px;
+            margin-bottom: 16px;
+        }
+
+        .text {
+            margin: 0;
+        }
+    }
+}
